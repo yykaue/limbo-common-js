@@ -18,6 +18,11 @@
   "author": "limbo <yykaue@qq.com>",
   "license": "ISC",
   "repository": {
-    "type": "git"
-  }
+    "type": "git",
+    "url": "git+https://github.com/yykaue/limbo-common-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yykaue/limbo-common-js/issues"
+  },
+  "homepage": "https://github.com/yykaue/limbo-common-js#readme"
 }
