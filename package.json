@@ -1,5 +1,5 @@
 {
-  "name": "@limbo/package-common-js",
+  "name": "limbo-common-js",
   "version": "1.0.0",
   "description": "通用JS库",
   "main": "index.js",
