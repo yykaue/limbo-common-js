@@ -1,6 +1,6 @@
 {
   "name": "limbo-common-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "通用JS库",
   "main": "index.js",
   "dependencies": {
@@ -10,7 +10,10 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "yarn version --patch && git push origin master && git push origin --tags && npm publish",
+    "minor": "yarn version --minor && git push origin master && git push origin --tags && npm publish",
+    "major": "yarn version --major && git push origin master && git push origin --tags && npm publish"
   },
   "keywords": [
     "JS"
