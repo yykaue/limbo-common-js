@@ -1,6 +1,6 @@
 {
   "name": "limbo-common-js",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "通用JS库",
   "main": "index.js",
   "dependencies": {
