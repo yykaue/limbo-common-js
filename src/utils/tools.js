@@ -125,12 +125,17 @@ const infoStyle = (color = '#409EFF', styleType = 'default') => {
 const printInformation = (infoArray = []) => {
   let messageString = '%climbo-common-js'
   const styleArray = ['padding:5px;color:#fadfa3;background:#030307;border:1px solid #fff;border-radius:5px;']
+  const originalArray = []
 
   infoArray.forEach(item => {
-    messageString += '%c' + item.message
-    styleArray.push(item.style)
+    if (item.type === 'original') {
+      originalArray.push(item.message)
+    } else {
+      messageString += '%c' + item.message
+      styleArray.push(item.style)
+    }
   })
-  console.log(messageString, ...styleArray)
+  console.log(messageString, ...styleArray, ...originalArray)
 }
 
 export {
